@@ -1,3 +1,9 @@
+<!-- class = class chu blueprint ang a ni
+     object = object chu a tak a chantir na
+     method = function kan tih thin
+     properties = variables kan tih thin-->
+
+
 <?php
 /*
 class users

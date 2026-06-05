@@ -1,3 +1,9 @@
+<!-- __construct() = user input tam tak siam dawn ta ila .
+ eg.300 user kha awlsam te in contruct hian line thui deuh ngailo in tawite in a siam thei.
+ constructor awmzia chu Object i siam(new) rual chiah khan a data tur i thun nghal vek thei tihna a ni. -->
+
+
+
 <?php
 
 class users
@@ -17,7 +23,12 @@ class users
     }
 }
 
-$user1 = new users("Jose", "123jose");
+$user1 = new users("Jose", "123jose");  //new users("","") ,hemi chhung a kan assign theih nghal nachhan chu __construct method vang a ni.
+// a hnuai a mi hi __construct method tello a assign a ni
+// $user1 = new users();
+// $user1->username = "Jose";
+// $user1->password = "Jose123";
+
 
 $user2 = new users("Grace", "123grace");
 
