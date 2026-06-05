@@ -7,7 +7,7 @@
 
 class User {
 
-    public string $username;
+    protected string $username;
 
     public function __construct(string $name) {
         $this->username = $name;
@@ -20,7 +20,7 @@ class User {
 
 class Admin extends User{   //"extends User" hi class User atanga inherit a ni
     public function banUser(string $badUser){
-        echo "🚨 ADMIN : {$this->username} is banned! <br>";
+        echo "🚨 ADMIN : {$badUser} is banned by ADMIN {$this->username}! <br>";
     }
 }
 
