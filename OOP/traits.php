@@ -17,11 +17,11 @@ trait tuiHleuhna {
     }
 }
 
-class NuPa {
+class myParents {
     public $sakhua = "Mizo";
 }
 
-class Fa extends NuPa {
+class Nau extends myParents {
 // heihi a pawimawh ber. USE hmang hian TRAIT kan equip
     use tuiHleuhna, thlawhna;
 
@@ -32,7 +32,7 @@ class Fa extends NuPa {
     }
 }
 
-$jose = new Fa("Jose");
+$jose = new Nau("Jose");
 
 echo $jose->hming . " chu " . $jose->sakhua . " sakhua a ni <br>";
 
