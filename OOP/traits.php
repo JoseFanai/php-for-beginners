@@ -21,7 +21,7 @@ class myParents {
     public $sakhua = "Mizo";
 }
 
-class Nau extends myParents {
+class myChild extends myParents {
 // heihi a pawimawh ber. USE hmang hian TRAIT kan equip
     use tuiHleuhna, thlawhna;
 
@@ -32,7 +32,7 @@ class Nau extends myParents {
     }
 }
 
-$jose = new Nau("Jose");
+$jose = new myChild("Jose");
 
 echo $jose->hming . " chu " . $jose->sakhua . " sakhua a ni <br>";
 
