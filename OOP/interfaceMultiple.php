@@ -10,4 +10,7 @@ class Developer implements ThiamnaA, ThiamnaB
     public function designZiah(){ echo "CSS ka thiam bawk. <br>";}
 }
 
+$new = new Developer();
+$new->codeZiah();
+$new->designZiah();
 ?>
